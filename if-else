@@ -25,4 +25,4 @@ echo "$a is Equal to $b"
 
 fi
 
-
+echo "Shell script completed successfully"
