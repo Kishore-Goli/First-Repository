@@ -1,0 +1,26 @@
+#This is my second shell script
+
+#Reading the firsst number
+echo "Enter first number"
+read a
+
+#Reading the second number
+echo "Enter second number"
+read b
+
+#Writing the expression
+#Checking if the number is greaterthan of b or not
+if [ $a -gt $b ]
+then
+echo "$a is Greater than $b"
+
+#Checking if the number is lessthan of a or not
+elif [ $a -lt $b ]
+then
+echo "$a is Less than $b"
+
+#Checking if the both the numbers are equal or not
+else
+echo "$a is Equal to $b"
+
+fi
